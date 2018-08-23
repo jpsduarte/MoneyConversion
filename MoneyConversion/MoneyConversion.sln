@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyConversion.Tests", "Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyConversion.Web", "MoneyConversion.Web\MoneyConversion.Web.csproj", "{27189F18-6F59-4004-96C2-64B164C13AD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyConversion.Api", "MoneyConversion.Api\MoneyConversion.Api.csproj", "{71257F88-B993-4229-AB5F-5F9F7CF64452}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{27189F18-6F59-4004-96C2-64B164C13AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27189F18-6F59-4004-96C2-64B164C13AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27189F18-6F59-4004-96C2-64B164C13AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71257F88-B993-4229-AB5F-5F9F7CF64452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71257F88-B993-4229-AB5F-5F9F7CF64452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71257F88-B993-4229-AB5F-5F9F7CF64452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71257F88-B993-4229-AB5F-5F9F7CF64452}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
