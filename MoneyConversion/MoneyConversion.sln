@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyConversion.Tests", "MoneyConversion.Tests\MoneyConversion.Tests.csproj", "{421DD7A7-F9D9-4C33-8AD0-CA4482C99356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyConversion.Web", "MoneyConversion.Web\MoneyConversion.Web.csproj", "{27189F18-6F59-4004-96C2-64B164C13AD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{421DD7A7-F9D9-4C33-8AD0-CA4482C99356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421DD7A7-F9D9-4C33-8AD0-CA4482C99356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421DD7A7-F9D9-4C33-8AD0-CA4482C99356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421DD7A7-F9D9-4C33-8AD0-CA4482C99356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27189F18-6F59-4004-96C2-64B164C13AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27189F18-6F59-4004-96C2-64B164C13AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27189F18-6F59-4004-96C2-64B164C13AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27189F18-6F59-4004-96C2-64B164C13AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17134E5F-2466-4EBC-BC13-D86EB0565658}
+	EndGlobalSection
+EndGlobal
