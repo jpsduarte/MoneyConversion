@@ -52,13 +52,15 @@ namespace MoneyConversion.Api.Controllers
 
                     if (!liveResponse.Quotes.ContainsKey(to))
                     {
-                        return BadRequest("destination currency found");
+                        return BadRequest("destination currency not found");
                     }
 
                     var fromValue = liveResponse.Quotes[from];
                     var toValue = liveResponse.Quotes[to];
 
-                    return Ok(toValue / fromValue * amount);
+                    var convertedValue = toValue / fromValue * amount;
+
+                    return Ok(convertedValue);
                 }
             }
         }
