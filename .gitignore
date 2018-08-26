@@ -1,1 +1,7 @@
-MoneyConverson/.vs
+MoneyConversion/.vs
+MoneyConversion/MoneyConversion.Api/bin
+MoneyConversion/MoneyConversion.Api/obj
+MoneyConversion/MoneyConversion.Web/bin
+MoneyConversion/MoneyConversion.Web/obj
+MoneyConversion/MoneyConversion.Tests/bin
+MoneyConversion/MoneyConversion.Tests/obj
